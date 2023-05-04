@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM gitlab.84.201.150.198.sslip.io:443/gitlab-instance-711bf56d/dependency_proxy/containers/node:10-alpine
 ENV NODE_ENV "production"
 ENV PORT 8079
 EXPOSE 8079
